@@ -1,0 +1,29 @@
+<MetaBuff type="SB.MetaBuff">
+  <BuffName>tst</BuffName>
+  <CastStage type="SB.MetaStage">
+    <FrameList />
+    <Owner />
+  </CastStage>
+  <FireStage type="SB.MetaStage">
+    <FrameList>
+      <item type="SB.MetaFrame">
+        <Index>6</Index>
+        <MetaAtomList>
+          <item type="SB.InstancePraferbAtom">
+            <InstancePosType>eInstancePosType_Caster</InstancePosType>
+            <PrefabName>
+            </PrefabName>
+            <RandRadius>4</RandRadius>
+            <RandNum>10</RandNum>
+            <Index>2</Index>
+          </item>
+        </MetaAtomList>
+      </item>
+    </FrameList>
+    <Owner />
+  </FireStage>
+  <EndStage type="SB.MetaStage">
+    <FrameList />
+    <Owner />
+  </EndStage>
+</MetaBuff>

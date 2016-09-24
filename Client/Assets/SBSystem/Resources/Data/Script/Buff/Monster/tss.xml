@@ -1,0 +1,53 @@
+<MetaBuff type="SB.MetaBuff">
+  <BuffName>tss</BuffName>
+  <CastStage type="SB.MetaStage">
+    <FrameList />
+    <Owner />
+  </CastStage>
+  <FireStage type="SB.MetaStage">
+    <FrameList>
+      <item type="SB.MetaFrame">
+        <Index>11</Index>
+        <MetaAtomList>
+          <item type="SB.FireEventAtom">
+            <EventType>CameraShake</EventType>
+            <DamageIndex>0</DamageIndex>
+            <DamageReCalcTars>True</DamageReCalcTars>
+            <DamageTargetType>Enemys</DamageTargetType>
+            <DamageForceLevel>0</DamageForceLevel>
+            <DamageAngle>45</DamageAngle>
+            <DamageDistance>3</DamageDistance>
+            <DamageRect>False</DamageRect>
+            <DamageWidth>0</DamageWidth>
+            <DamageHeight>0</DamageHeight>
+            <DamageCalcByAttacker>True</DamageCalcByAttacker>
+            <SpeedUpTime>0.5</SpeedUpTime>
+            <SpeedConstTime>0.2</SpeedConstTime>
+            <SpeedDownTime>0.2</SpeedDownTime>
+            <SpeedMax>0</SpeedMax>
+            <MoveNoPhysics>False</MoveNoPhysics>
+            <GenerateForceLevel>1</GenerateForceLevel>
+            <ShakeOnlyLeader>True</ShakeOnlyLeader>
+            <NumberOfShakes>2</NumberOfShakes>
+            <ShakeAmount>(1.0, 1.0, 1.0)</ShakeAmount>
+            <RotationAmount>(1.0, 1.0, 1.0)</RotationAmount>
+            <ShakeDistance>0.1</ShakeDistance>
+            <ShakeSpeed>50</ShakeSpeed>
+            <ShakeDecay>0.2</ShakeDecay>
+            <GuiShakeModifier>1</GuiShakeModifier>
+            <MultiplyByTimeScale>True</MultiplyByTimeScale>
+            <TimeScale>1</TimeScale>
+            <DestScale>1</DestScale>
+            <ChangTime>1</ChangTime>
+            <Index>1</Index>
+          </item>
+        </MetaAtomList>
+      </item>
+    </FrameList>
+    <Owner />
+  </FireStage>
+  <EndStage type="SB.MetaStage">
+    <FrameList />
+    <Owner />
+  </EndStage>
+</MetaBuff>
