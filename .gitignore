@@ -50,3 +50,8 @@ Temporary Items
 # Project Ignore Files
 Client/Library/*
 Client/Temp/*
+Client/Assets/UnityVS/*
+Client/UnityVS.Client.CSharp.csproj
+Client/UnityVS.Client.CSharp.Editor.csproj
+Client/UnityVS.Client.sln
+Client/Assets/UnityVS.meta
